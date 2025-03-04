@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a,ul,li{
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #363853;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 55px 135px 0 135px;
+
+}
+
+.header_logo {
+    font-weight: 500;
+    font-size: 50px;
+    letter-spacing: 5%;
+    line-height: 40px;
+
+
+}
+.color_letter {
+    color: #FF6838;
+}
+
+.header_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 150px;
+
+}
+ .item{
+     margin-right: 60px;
+ }
+
+ .active{
+     color: #FF6838;
+ }
+
+ .header_btn {
+     font-size: 18px;
+ }
+
+ .btn {
+     border: none;
+     background-color:#FF6838;
+     border-radius: 10px;
+     color: #fff;
+     text-align: center;
+
+     width: 120px;
+     height: 51px;
+
+
+     cursor: pointer;
+ }
+
+
+
+
+
+
